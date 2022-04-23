@@ -1,0 +1,20 @@
+.navbar {
+}
+
+.navbarContainer {
+}
+
+.Brand {
+}
+
+.brandTitle {
+  font-weight: bold;
+  margin: 0px;
+  color: #8873ef;
+}
+
+.navItem {
+  font-size: 16px;
+  color: #18171c !important;
+  font-weight: 700;
+}

@@ -1,0 +1,31 @@
+.footer {
+  width: 100%;
+  background-color: #f7f7f7;
+  padding: 30px 0px;
+}
+
+.footerContainer {
+  width: 50%;
+  margin: 0px auto;
+  text-align: center;
+}
+
+.footerTitle {
+  font-weight: 700;
+  font-size: 28px;
+}
+
+.footerSosmed {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.sosmedBox {
+}
+
+.sosmedItem {
+  font-size: 28px;
+  color: #18171c;
+  cursor: pointer;
+}

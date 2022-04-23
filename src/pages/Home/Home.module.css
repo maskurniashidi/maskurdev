@@ -1,0 +1,351 @@
+.home {
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+}
+
+.navbarContainer {
+}
+
+.Brand {
+}
+
+.brandTitle {
+  font-weight: bold;
+  margin: 0px;
+  color: #8873ef;
+}
+
+.navItem {
+  font-size: 16px;
+  color: #18171c !important;
+  font-weight: 700;
+}
+
+/* heading */
+.heading {
+  display: flex;
+  gap: 100px;
+}
+
+.headingLeft {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.headingText {
+  color: #18171c !important;
+  margin-top: 75px;
+}
+
+.name {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.dividerSmall {
+  width: 40px;
+  height: 4px;
+  background-color: #c4c4c4;
+  margin: 8px 0px;
+}
+
+.headingDescription {
+  color: #18171c !important;
+  font-size: 16px;
+}
+
+.btnHeading {
+  display: flex;
+  gap: 10px;
+}
+
+.btnChat {
+  padding: 5px 10px;
+  background-color: #8873ef;
+  border-radius: 6px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.btnChat:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+.btnPorto {
+  padding: 5px 10px;
+  color: #8873ef;
+  border-radius: 6px;
+  border: 1px solid #8873ef;
+  text-decoration: none;
+}
+
+.btnPorto:hover {
+  text-decoration: none;
+  color: #8873ef;
+}
+
+.headingSosmed {
+  display: flex;
+  gap: 10px;
+  margin-top: 30px;
+}
+
+.sosmedText {
+  margin-top: 8px;
+}
+
+.sosmedBox {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  background-color: #f6f6f6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sosmedItem {
+  color: #2d2c31;
+  font-size: 20px;
+}
+
+.headingRight {
+  flex: 1;
+}
+
+.headingImage {
+  width: 500px;
+}
+
+@media only screen and (max-width: 990px) {
+  .heading {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .headingLeft {
+    order: 2;
+  }
+
+  .headingText {
+    color: #18171c !important;
+    margin-top: 0px;
+  }
+  .headingRight {
+    order: 1;
+  }
+
+  .headingImage {
+    width: 300px;
+  }
+}
+
+/* about */
+.about {
+  width: 100%;
+}
+
+.aboutContainer {
+  width: 90%;
+  margin: 30px auto;
+}
+
+.aboutTitle {
+  font-size: 28px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.aboutContent {
+  width: 80%;
+  margin: 50px auto;
+  display: flex;
+  align-items: center;
+}
+
+.aboutLeft {
+  flex: 1;
+}
+
+.aboutImage {
+  width: 350px;
+  margin-left: 100px;
+}
+
+.aboutRight {
+  flex: 1;
+}
+
+.aboutName {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.aboutTitleName {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.aboutDetail {
+  font-size: 16px;
+  color: #18171c !important;
+}
+
+.aboutEducationTitle {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.educationPlace {
+  margin-bottom: 0px;
+}
+
+.downloadCV {
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: #8873ef;
+  border-radius: 6px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.downloadCV:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+.myExp {
+  margin-top: 50px;
+}
+
+@media only screen and (max-width: 990px) {
+  .aboutContent {
+    flex-direction: column;
+    width: 100%;
+  }
+  .aboutImage {
+    margin-left: 0px;
+    width: 275px;
+  }
+}
+
+/* skill */
+.skillSection {
+  margin: 60px 0px;
+}
+
+.skillContainer {
+  margin: 0px auto;
+}
+
+.skillTitle {
+  text-align: center;
+  font-size: 28px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.skillSet {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 60px;
+  margin: 20px 0px;
+}
+
+.skillItemBox {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skillItem {
+}
+
+@media only screen and (max-width: 990px) {
+  .skillItemBox {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .skillItem {
+    width: 100px;
+  }
+}
+
+/* porto */
+.portoContainer {
+  margin: 50px auto;
+}
+
+.portoList {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 30px;
+}
+
+.portoItem {
+  background: #ffffff;
+  padding: 20px;
+  box-shadow: 0px 6px 12px -6px rgba(24, 39, 75, 0.12), 0px 8px 24px -4px rgba(24, 39, 75, 0.08);
+  border-radius: 8px;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+
+.portoImg {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.portoDetail {
+  margin-top: 10px;
+  flex: 1;
+}
+
+.portoTech {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.portoText {
+  font-size: 14px;
+  color: #18171c;
+}
+
+.portoTitle {
+  font-size: 24px;
+  font-weight: bold;
+  color: #18171c;
+}
+
+.viewPorto {
+  text-decoration: none;
+  background: none;
+  text-align: start;
+  color: #0d6ef6;
+}
+
+@media only screen and (max-width: 990px) {
+  .portoItem {
+    width: 45%;
+  }
+}
