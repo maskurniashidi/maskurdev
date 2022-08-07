@@ -32,6 +32,8 @@ import mtiadmin from "../../assets/images/mtiadmin.png";
 import evote from "../../assets/images/evote.png";
 import mtimitra from "../../assets/images/mtimitra.png";
 import hyponic from "../../assets/images/hyponic.png";
+import bantuin from "../../assets/images/bantuin.png";
+import maskurdev from "../../assets/images/maskurdev.png";
 import { AiFillInstagram, AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import { IoLogoWhatsapp } from "react-icons/io";
 import Inhotel from "../Project/Inhotel/Inhotel";
@@ -227,15 +229,15 @@ function Home() {
           <h5 className={styles.skillTitle}>My Portfolio</h5>
           <div className={styles.portoList}>
             <div className={styles.portoItem}>
-              <img src={inhotel} alt="inhotel" className={styles.portoImg} />
+              <img src={bantuin} alt="inhotel" className={styles.portoImg} />
               <div className={styles.portoDetail}>
                 <div className={styles.portoTech}>
                   <p className={styles.portoText}>ReactJs</p>
                 </div>
-                <h5 className={styles.portoTitle}>Inhotel</h5>
-                <p className={styles.portoText}>inhotel.id is a hotel direct booking service application launched by dailyhotel.id</p>
+                <h5 className={styles.portoTitle}>Bantubantuin</h5>
+                <p className={styles.portoText}>At the beginning of its establishment, Bantubantuin was a digital platform that provided a place for service business activists and service users to meet online and transact online.</p>
               </div>
-              <button onClick={() => handleOpenInhotel("bottom")} className={styles.viewPorto}>
+              <button onClick={() => handleOpenPitect("bottom")} to="" className={styles.viewPorto}>
                 <p className={styles.viewText}>View detail</p>
               </button>
             </div>
@@ -253,6 +255,7 @@ function Home() {
                 <p className={styles.viewText}>View detail</p>
               </button>
             </div>
+
             <div className={styles.portoItem}>
               <img src={uplink} alt="inhotel" className={styles.portoImg} />
               <div className={styles.portoDetail}>
@@ -266,19 +269,7 @@ function Home() {
                 <p className={styles.viewText}>View detail</p>
               </button>
             </div>
-            <div className={styles.portoItem}>
-              <img src={mtiadmin} alt="inhotel" className={styles.portoImg} />
-              <div className={styles.portoDetail}>
-                <div className={styles.portoTech}>
-                  <p className={styles.portoText}>Figma</p>
-                </div>
-                <h5 className={styles.portoTitle}>Medical Tourism Indonesia</h5>
-                <p className={styles.portoText}>Indonesia Medical Tourism is a platform that connects the tourism ecosystem and the medical industry in Indonesia by PT CIPTA WISATA MEDIKA</p>
-              </div>
-              <button onClick={() => handleOpenMti("bottom")} to="" className={styles.viewPorto}>
-                <p className={styles.viewText}>View detail</p>
-              </button>
-            </div>
+
             <div className={styles.portoItem}>
               <img src={evote} alt="inhotel" className={styles.portoImg} />
               <div className={styles.portoDetail}>
@@ -292,6 +283,35 @@ function Home() {
                 <p className={styles.viewText}>View detail</p>
               </button>
             </div>
+
+            <div className={styles.portoItem}>
+              <img src={inhotel} alt="inhotel" className={styles.portoImg} />
+              <div className={styles.portoDetail}>
+                <div className={styles.portoTech}>
+                  <p className={styles.portoText}>ReactJs</p>
+                </div>
+                <h5 className={styles.portoTitle}>Inhotel</h5>
+                <p className={styles.portoText}>inhotel.id is a hotel direct booking service application launched by dailyhotel.id</p>
+              </div>
+              <button onClick={() => handleOpenInhotel("bottom")} className={styles.viewPorto}>
+                <p className={styles.viewText}>View detail</p>
+              </button>
+            </div>
+
+            <div className={styles.portoItem}>
+              <img src={mtiadmin} alt="inhotel" className={styles.portoImg} />
+              <div className={styles.portoDetail}>
+                <div className={styles.portoTech}>
+                  <p className={styles.portoText}>Figma</p>
+                </div>
+                <h5 className={styles.portoTitle}>Medical Tourism Indonesia</h5>
+                <p className={styles.portoText}>Indonesia Medical Tourism is a platform that connects the tourism ecosystem and the medical industry in Indonesia by PT CIPTA WISATA MEDIKA</p>
+              </div>
+              <button onClick={() => handleOpenMti("bottom")} to="" className={styles.viewPorto}>
+                <p className={styles.viewText}>View detail</p>
+              </button>
+            </div>
+
             <div className={styles.portoItem}>
               <img src={mtimitra} alt="inhotel" className={styles.portoImg} />
               <div className={styles.portoDetail}>
@@ -312,6 +332,20 @@ function Home() {
                   <p className={styles.portoText}>ReactJs</p>
                 </div>
                 <h5 className={styles.portoTitle}>Hyponic</h5>
+                <p className={styles.portoText}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere inventore nisi ullam iste quidem debitis</p>
+              </div>
+              <button onClick={() => handleOpenHyponic("bottom")} to="" className={styles.viewPorto}>
+                <p className={styles.viewText}>View detail</p>
+              </button>
+            </div>
+
+            <div className={styles.portoItem}>
+              <img src={maskurdev} alt="inhotel" className={styles.portoImg} />
+              <div className={styles.portoDetail}>
+                <div className={styles.portoTech}>
+                  <p className={styles.portoText}>ReactJs</p>
+                </div>
+                <h5 className={styles.portoTitle}>Maskurdev</h5>
                 <p className={styles.portoText}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere inventore nisi ullam iste quidem debitis</p>
               </div>
               <button onClick={() => handleOpenHyponic("bottom")} to="" className={styles.viewPorto}>

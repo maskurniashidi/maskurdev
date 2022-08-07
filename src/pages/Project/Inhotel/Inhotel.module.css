@@ -1,0 +1,37 @@
+.container {
+  width: 768px;
+  margin: 0px auto;
+}
+
+.top {
+  display: flex;
+  gap: 10px;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.carouselContainer {
+  width: 768px;
+  height: 576px;
+}
+
+.thumbBox {
+  background-color: aqua;
+  width: 768px;
+  height: 576px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.projectInfo {
+  margin-top: 100px;
+}
+
+.sourceBox {
+  display: flex;
+  gap: 20px;
+}
